@@ -151,6 +151,7 @@
             this.chart1.Size = new System.Drawing.Size(358, 297);
             this.chart1.TabIndex = 9;
             this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
             // 
             // button1
             // 
