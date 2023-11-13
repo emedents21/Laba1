@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prakt4", "Prakt4\Prakt4.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSolid", "UnitTestSolid\UnitTestSolid.csproj", "{158253F0-B6D0-4DDA-97D1-8B49A58A13CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prakt5", "Prakt5\Prakt5.csproj", "{7F676CCD-3F5E-4A0C-801B-3E54B2F85213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{158253F0-B6D0-4DDA-97D1-8B49A58A13CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{158253F0-B6D0-4DDA-97D1-8B49A58A13CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{158253F0-B6D0-4DDA-97D1-8B49A58A13CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F676CCD-3F5E-4A0C-801B-3E54B2F85213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F676CCD-3F5E-4A0C-801B-3E54B2F85213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F676CCD-3F5E-4A0C-801B-3E54B2F85213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F676CCD-3F5E-4A0C-801B-3E54B2F85213}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
