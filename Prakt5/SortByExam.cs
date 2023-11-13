@@ -11,7 +11,15 @@ namespace Prakt5
     {
         public int Compare(Student x, Student y)
         {
-            return y.Group.CompareTo(x.Group);
+            if(y.Group == x.Group)
+            {
+                return y.Exam.CompareTo(x.Exam);
+            }
+            else
+            {
+                return y.Group.CompareTo(x.Group);
+
+            }
         }
     }
 }
