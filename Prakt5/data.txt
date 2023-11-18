@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <PIIB>asdfdfs</PIIB>
+    <Group>22</Group>
+    <Exam>95</Exam>
+  </Student>
+  <Student>
+    <PIIB>wasdfsadf</PIIB>
+    <Group>22</Group>
+    <Exam>88</Exam>
+  </Student>
+  <Student>
+    <PIIB>asdfdfs</PIIB>
+    <Group>22</Group>
+    <Exam>85</Exam>
+  </Student>
+  <Student>
+    <PIIB>asdfdfs</PIIB>
+    <Group>20</Group>
+    <Exam>90</Exam>
+  </Student>
+  <Student>
+    <PIIB>wasdfsadf</PIIB>
+    <Group>20</Group>
+    <Exam>78</Exam>
+  </Student>
+  <Student>
+    <PIIB>asdfdfs</PIIB>
+    <Group>12</Group>
+    <Exam>98</Exam>
+  </Student>
+</ArrayOfStudent>

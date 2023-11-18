@@ -34,9 +34,11 @@ namespace Prakt5
         }
         public void ReadFile(string fileName)
         {
-            FileStream fileStream = new FileStream(fileName, FileMode.Create, FileAccess.Write, FileShare.None);
-            people = serializer.Deserialize(fileStream) as List<Student>;
-            fileStream.Close();
+            using (FileStream fileStream = new FileStream(fileName, FileMode.Open, FileAccess.Read, FileShare.None))
+            {
+                people = serializer.Deserialize(fileStream) as List<Student>;
+
+            }
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Prakt5
     public partial class Praktika5Tp : Form
     {
         People people = new People();
-        string path = "data.txt";
+        string path = "C:\\Users\\Yehor Medentsov\\source\\repos\\Laba1\\Prakt5\\data.txt";
         public void Show(DataGridView dg)
         {
             dg.Rows.Clear();
@@ -34,14 +34,28 @@ namespace Prakt5
 
         private void button3_Click(object sender, EventArgs e)
         {
-            people.ReadFile(path);
-            Show(data11111);
+            try
+            {
+                people.ReadFile(path);
+                Show(data11111);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Помилка!");
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            people.WriteFile(path);
-            MessageBox.Show("Дані записані!");
+            try
+            {
+                people.WriteFile(path);
+                MessageBox.Show("Дані записані!");
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Помилка!");
+            }
+           
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
